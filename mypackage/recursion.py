@@ -36,8 +36,11 @@ def factorial(n):
     '''Return n!'''
     if n == 1:
         return n
+    elif n == 0:
+        return 1
     else:
          return n * factorial(n-1)
+     
 
 def reverse(word):
 
